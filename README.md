@@ -9,6 +9,10 @@ To build the extension:
 ```sh
 make
 ```
+
+**Note:** If you just cloned the repository, don't forget to run `git submodule init && git submodule update` to fetch the appropriate duckdb version.
+
+
 The main binaries that will be built are:
 ```sh
 ./build/release/duckdb/duckdb
